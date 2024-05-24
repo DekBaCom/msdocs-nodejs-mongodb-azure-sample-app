@@ -32,7 +32,7 @@ async function getConnectionInfo() {
   const DATABASE_NAME = process.env.DATABASE_NAME || "azure-todo-app";
 
   return {
-    DATABASE_URL: process.env.mongodb://eb-server:BgwCL44ylecWJw81p8d0N6ZFpPfz1qZyZWRQ6H4j2j4riEhT6jFFqV75OHeU2VgW2b6mbxBEV7J5ACDbwCLZfQ==@eb-server.mongo.cosmos.azure.com:10255/eb-database?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@eb-server@,
+    DATABASE_URL: process.env.mongodb://eb-server:BgwCL44ylecWJw81p8d0N6ZFpPfz1qZyZWRQ6H4j2j4riEhT6jFFqV75OHeU2VgW2b6mbxBEV7J5ACDbwCLZfQ==@eb-server.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@eb-server@,
     DATABASE_NAME: process.env.eb-server
   }
 }
