@@ -32,8 +32,8 @@ async function getConnectionInfo() {
   const DATABASE_NAME = process.env.DATABASE_NAME || "azure-todo-app";
 
   return {
-    DATABASE_URL: process.env.DATABASE_URL,
-    DATABASE_NAME: process.env.DATABASE_NAME
+    DATABASE_URL: process.env.mongodb://eb-server.mongo.cosmos.azure.com,
+    DATABASE_NAME: process.env.eb-server
   }
 }
 
